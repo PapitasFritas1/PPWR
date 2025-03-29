@@ -1,0 +1,584 @@
+[29Mar2025 00:03:37.583] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Fran the Special'/106541, l='ServerLevel[world]', x=-14373.57, y=70.00, z=-5519.57] died: Fran the Special was killed trying to hurt PeterGOG
+[29Mar2025 00:05:28.388] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Stray['Duke Helga the AC Rizzlord'/105343, l='ServerLevel[world]', x=-14364.39, y=69.85, z=-5516.49] died: Duke Helga the AC Rizzlord was slain by PeterGOG using [Lacerating EXCALIBUR of the Sunderer]
+[29Mar2025 00:07:18.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Teleported PeterGOG to -18687.500000, 64.000000, -3775.500000]
+[29Mar2025 00:07:19.017] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2242ms or 44 ticks behind
+[29Mar2025 00:07:25.258] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Mar2025 00:07:25.258] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Mar2025 00:07:25.266] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Mar2025 00:07:25.266] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Mar2025 00:07:25.295] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Mar2025 00:07:25.295] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[29Mar2025 00:07:40.051] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:bundle/common/STAT/1.0!
+[29Mar2025 00:07:40.056] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	Index: 17
+	Listeners:
+		0: HIGHEST
+		1: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@6f00335d playerDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		2: HIGH
+		3: ASM: class ovh.corail.tombstone.event.EventHandler onHandleSoulbound(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		4: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsHigh(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		5: NORMAL
+		6: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@3f693b6b
+		7: ASM: class daripher.skilltree.event.ModEvents dropAmnesiaScroll(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		8: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@2667cdbe
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@192a857a
+		10: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@8cc617
+		11: LOW
+		12: ASM: class ovh.corail.tombstone.event.EventHandler onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		13: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		14: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		15: LOWEST
+		16: ASM: class daripher.skilltree.skill.bonus.SkillBonusHandler applyLootDuplicationChanceBonus(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		17: ASM: class ovh.corail.tombstone.helper.LootHelper onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		18: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		19: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		20: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 festive_removeMarker(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277)
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104)
+	at java.base/java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[29Mar2025 00:07:40.069] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@45ccb1ab, suppressing error
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[29Mar2025 00:07:47.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Set own game mode to Spectator Mode]
+[29Mar2025 00:07:52.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Set own game mode to Survival Mode]
+[29Mar2025 00:08:00.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Set own game mode to Creative Mode]
+[29Mar2025 00:08:01.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Set own game mode to Survival Mode]
+[29Mar2025 00:08:15.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Teleported PeterGOG to joni_lindo]
+[29Mar2025 00:08:16.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PeterGOG has made the advancement [Smoke On The Water]
+[29Mar2025 00:08:32.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:08:32.388] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:09:14.637] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:bundle/uncommon/STAT/1.0!
+[29Mar2025 00:09:14.637] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:bundle/uncommon/STAT/1.0!
+[29Mar2025 00:09:14.637] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:bundle/uncommon/STAT/0.45!
+[29Mar2025 00:09:14.638] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{uncommon}.
+	Index: 17
+	Listeners:
+		0: HIGHEST
+		1: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@6f00335d playerDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		2: HIGH
+		3: ASM: class ovh.corail.tombstone.event.EventHandler onHandleSoulbound(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		4: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsHigh(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		5: NORMAL
+		6: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@3f693b6b
+		7: ASM: class daripher.skilltree.event.ModEvents dropAmnesiaScroll(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		8: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@2667cdbe
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@192a857a
+		10: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@8cc617
+		11: LOW
+		12: ASM: class ovh.corail.tombstone.event.EventHandler onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		13: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		14: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		15: LOWEST
+		16: ASM: class daripher.skilltree.skill.bonus.SkillBonusHandler applyLootDuplicationChanceBonus(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		17: ASM: class ovh.corail.tombstone.helper.LootHelper onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		18: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		19: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		20: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 festive_removeMarker(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{uncommon}.
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277)
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104)
+	at java.base/java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[29Mar2025 00:09:14.639] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@771719d2, suppressing error
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{uncommon}.
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[29Mar2025 00:09:52.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:09:52.337] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:10:44.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo has reached the goal [Chain Death]
+[29Mar2025 00:10:44.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:10:44.342] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:10:46.854] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:bundle/common/STAT/1.0!
+[29Mar2025 00:10:46.854] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:bundle/common/STAT/0.25!
+[29Mar2025 00:10:46.855] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	Index: 17
+	Listeners:
+		0: HIGHEST
+		1: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@6f00335d playerDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		2: HIGH
+		3: ASM: class ovh.corail.tombstone.event.EventHandler onHandleSoulbound(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		4: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsHigh(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		5: NORMAL
+		6: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@3f693b6b
+		7: ASM: class daripher.skilltree.event.ModEvents dropAmnesiaScroll(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		8: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@2667cdbe
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@192a857a
+		10: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@8cc617
+		11: LOW
+		12: ASM: class ovh.corail.tombstone.event.EventHandler onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		13: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		14: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		15: LOWEST
+		16: ASM: class daripher.skilltree.skill.bonus.SkillBonusHandler applyLootDuplicationChanceBonus(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		17: ASM: class ovh.corail.tombstone.helper.LootHelper onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		18: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		19: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		20: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 festive_removeMarker(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277)
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104)
+	at java.base/java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[29Mar2025 00:10:46.856] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@172efc10, suppressing error
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[29Mar2025 00:11:50.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Teleported PeterGOG to -18684.500000, 91.500000, -3775.500000]
+[29Mar2025 00:12:13.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Set own game mode to Spectator Mode]
+[29Mar2025 00:12:17.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:12:17.894] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:12:28.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Set own game mode to Survival Mode]
+[29Mar2025 00:12:46.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:12:46.392] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:13:11.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo hit the ground too hard whilst trying to escape Skeleton
+[29Mar2025 00:13:11.055] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:13:37.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:13:37.791] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:13:49.740] [Worker-Main-16/WARN] [ModernFix/]: The namespace farmersdelight contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[29Mar2025 00:14:33.508] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1fc37a5d
+[29Mar2025 00:14:33.516] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:39289] logged in with entity id 114219 at (3974.0041803558693, 66.0, -946.7686255250678)
+[29Mar2025 00:14:33.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:15:55.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:15:55.750] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:16:19.364] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Senpai Rick the Morbius'/116139, l='ServerLevel[world]', x=-18869.50, y=75.00, z=-3903.83] died: Senpai Rick the Morbius was slain by PeterGOG using [Elongated Umbra of Slaying]
+[29Mar2025 00:17:38.802] [Server thread/ERROR] [Apotheosis : Adventure/]: Failed to execute LootRule minecraft:bundle/common/STAT/1.0!
+[29Mar2025 00:17:38.802] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	Index: 17
+	Listeners:
+		0: HIGHEST
+		1: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@6f00335d playerDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		2: HIGH
+		3: ASM: class ovh.corail.tombstone.event.EventHandler onHandleSoulbound(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		4: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsHigh(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		5: NORMAL
+		6: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@3f693b6b
+		7: ASM: class daripher.skilltree.event.ModEvents dropAmnesiaScroll(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		8: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@2667cdbe
+		9: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@192a857a
+		10: net.minecraftforge.eventbus.EventBus$$Lambda$1483/0x000078ab7c65ee40@8cc617
+		11: LOW
+		12: ASM: class ovh.corail.tombstone.event.EventHandler onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		13: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		14: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 drops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		15: LOWEST
+		16: ASM: class daripher.skilltree.skill.bonus.SkillBonusHandler applyLootDuplicationChanceBonus(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		17: ASM: class ovh.corail.tombstone.helper.LootHelper onDrops(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		18: ASM: shadows.apotheosis.ench.EnchModuleEvents@13c93946 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		19: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 dropsLowest(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+		20: ASM: shadows.apotheosis.adventure.AdventureEvents@521bf643 festive_removeMarker(Lnet/minecraftforge/event/entity/living/LivingDropsEvent;)V
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40)
+	at TRANSFORMER/apotheosis@6.4.0/shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277)
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104)
+	at java.base/java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350)
+	at TRANSFORMER/tombstone@8.2.13/ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@43.4.2/net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[29Mar2025 00:17:38.807] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@be2d0d3, suppressing error
+java.lang.RuntimeException: Failed to locate any affixes for bundle{null} with category LootCategory[curios:bundle] and rarity LootRarity{common}.
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:71) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.LootController.createLootItem(LootController.java:40) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at shadows.apotheosis.adventure.loot.AffixConvertLootModifier.doApply(AffixConvertLootModifier.java:37) ~[Aphoteosis.jar%23168!/:6.4.0]
+	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1320) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:90) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$handleMobDrops$3(LootHelper.java:277) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.stream.IntPipeline$Head.forEach(IntPipeline.java:617) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.handleMobDrops(LootHelper.java:276) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.LootHelper.lambda$onDrops$9(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at ovh.corail.tombstone.helper.LootHelper.onDrops(LootHelper.java:350) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at ovh.corail.tombstone.helper.__LootHelper_onDrops_LivingDropsEvent.invoke(.dynamic) ~[tombstone-8.2.13-1.19.2.jar%23230!/:8.2.13]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDrops(ForgeHooks.java:359) ~[forge-1.19.2-43.4.2-universal.jar%23242!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1347) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6667_(LivingEntity.java:1298) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.world.entity.player.Player.m_5706_(Player.java:1154) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5706_(ServerPlayer.java:1368) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_141994_(ServerGamePacketListenerImpl.java:1576) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$1.m_142457_(ServerboundInteractPacket.java:166) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1546) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23237!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[29Mar2025 00:18:18.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo has reached the goal [Bone Crusher]
+[29Mar2025 00:19:29.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PeterGOG: Teleported PeterGOG to -19196.500000, 78.500000, -4452.500000]
+[29Mar2025 00:19:45.358] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Cheese E Piloza the Pathetic'/121149, l='ServerLevel[world]', x=5413.26, y=123.00, z=-982.30] died: Cheese E Piloza the Pathetic was slain by Thunderusk using [LA MATA ZURDOS]
+[29Mar2025 00:19:47.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:19:47.399] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:20:14.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:20:14.746] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:21:34.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Timed out
+[29Mar2025 00:21:34.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:22:10.200] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@13a04931
+[29Mar2025 00:22:10.205] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:39487] logged in with entity id 124297 at (5761.878441180473, 183.0, -972.5385616620441)
+[29Mar2025 00:22:10.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:22:38.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo was slain by Skeleton
+[29Mar2025 00:22:38.745] [Server thread/INFO] [tombstone/]: The player joni_lindo has successfully been saved
+[29Mar2025 00:22:46.022] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Disconnected
+[29Mar2025 00:22:46.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:22:57.053] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6d0a79e7
+[29Mar2025 00:22:57.061] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:52401] logged in with entity id 125581 at (5761.878441180473, 183.0, -972.5385616620441)
+[29Mar2025 00:22:57.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:23:11.996] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Disconnected
+[29Mar2025 00:23:11.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:23:24.096] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@e24be90[id=<null>,name=Thunderusk,properties={},legacy=false] (/127.152.110.10:48269) lost connection: Disconnected
+[29Mar2025 00:23:30.503] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@18e6f19e
+[29Mar2025 00:23:30.512] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:54865] logged in with entity id 126142 at (5761.878441180473, 183.0, -972.5385616620441)
+[29Mar2025 00:23:30.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:24:00.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Timed out
+[29Mar2025 00:24:00.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:24:14.551] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1b08d3ce
+[29Mar2025 00:24:14.558] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:46871] logged in with entity id 127281 at (5761.878441180473, 183.0, -972.5385616620441)
+[29Mar2025 00:24:14.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:24:44.650] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Timed out
+[29Mar2025 00:24:44.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:25:54.095] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7fef3335
+[29Mar2025 00:25:54.100] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:50113] logged in with entity id 129391 at (5761.878441180473, 183.0, -972.5385616620441)
+[29Mar2025 00:25:54.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:26:21.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Disconnected
+[29Mar2025 00:26:21.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:26:35.758] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@42fe93
+[29Mar2025 00:26:35.766] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:53235] logged in with entity id 130311 at (5761.878441180473, 183.0, -972.5385616620441)
+[29Mar2025 00:26:35.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:28:05.961] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Timed out
+[29Mar2025 00:28:05.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:28:33.996] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@52ee8d7c
+[29Mar2025 00:28:34.003] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:33843] logged in with entity id 132834 at (5949.91562828245, 131.0, -891.2886145898287)
+[29Mar2025 00:28:34.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:30:17.166] [Worker-Main-15/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-32, z=-208}
+[29Mar2025 00:30:17.369] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-106, y=-32, z=-216}
+[29Mar2025 00:31:53.912] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/137457, l='ServerLevel[world]', x=6439.12, y=83.00, z=-738.46] died: Unlicensed Alchemist was slain by Thunderusk
+[29Mar2025 00:31:54.610] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/137977, l='ServerLevel[world]', x=6439.12, y=83.00, z=-738.79] died: Unlicensed Alchemist was slain by Thunderusk
+[29Mar2025 00:34:38.760] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/139856, l='ServerLevel[world]', x=6441.52, y=85.00, z=-762.64] died: Drunken Villager was slain by Thunderusk
+[29Mar2025 00:34:42.605] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/137369, l='ServerLevel[world]', x=6441.45, y=85.00, z=-768.15] died: Drunken Villager was slain by Thunderusk
+[29Mar2025 00:34:45.056] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/139680, l='ServerLevel[world]', x=6443.14, y=85.00, z=-765.15] died: Drunken Villager was slain by Thunderusk
+[29Mar2025 00:34:46.880] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/139853, l='ServerLevel[world]', x=6444.34, y=86.00, z=-767.54] died: Drunken Villager was slain by Thunderusk
+[29Mar2025 00:34:47.823] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/139679, l='ServerLevel[world]', x=6445.85, y=86.19, z=-767.85] died: Drunken Villager was slain by Thunderusk
+[29Mar2025 00:34:48.352] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/139854, l='ServerLevel[world]', x=6445.85, y=86.19, z=-767.85] died: Drunken Villager was slain by Thunderusk
+[29Mar2025 00:34:48.857] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/139855, l='ServerLevel[world]', x=6445.85, y=86.19, z=-767.85] died: Drunken Villager was slain by Thunderusk
+[29Mar2025 00:35:19.164] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/137370, l='ServerLevel[world]', x=6438.19, y=85.00, z=-781.46] died: Unlicensed Alchemist was slain by Thunderusk
+[29Mar2025 00:35:24.065] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/141397, l='ServerLevel[world]', x=6438.09, y=85.00, z=-779.51] died: Unlicensed Alchemist was slain by Thunderusk
+[29Mar2025 00:35:51.051] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: joni_lindo lost connection: Disconnected
+[29Mar2025 00:35:51.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: joni_lindo left the game
+[29Mar2025 00:36:20.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PeterGOG lost connection: Disconnected
+[29Mar2025 00:36:20.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PeterGOG left the game
+[29Mar2025 00:36:34.836] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Timed out
+[29Mar2025 00:36:34.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:36:45.733] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@24967df1
+[29Mar2025 00:36:45.739] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Thunderusk[/127.152.110.10:60163] logged in with entity id 142302 at (6427.264930040652, 94.0, -746.6538493622307)
+[29Mar2025 00:36:45.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk joined the game
+[29Mar2025 00:37:51.887] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Thunderusk lost connection: Disconnected
+[29Mar2025 00:37:51.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thunderusk left the game
+[29Mar2025 00:38:09.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[29Mar2025 00:38:09.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Mar2025 00:38:09.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Mar2025 00:38:09.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Mar2025 00:38:09.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29Mar2025 00:38:11.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29Mar2025 00:38:11.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29Mar2025 00:38:11.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29Mar2025 00:38:11.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Mar2025 00:38:11.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Mar2025 00:38:11.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

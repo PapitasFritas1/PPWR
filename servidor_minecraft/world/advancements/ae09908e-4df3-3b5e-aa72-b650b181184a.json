@@ -691,7 +691,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -1039,7 +1039,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -1351,7 +1351,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -1610,6 +1610,12 @@
   "minecraft:recipes/combat/netherite_sword_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-03-15 20:25:27 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_endshelf": {
+    "criteria": {
+      "draconic": "2025-03-29 21:41:34 +0000"
     },
     "done": true
   },
@@ -2642,7 +2648,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -2738,7 +2744,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -2799,6 +2805,12 @@
   "dungeons_arise:find_small_blimp": {
     "criteria": {
       "location0": "2025-03-21 07:32:33 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/endshelf": {
+    "criteria": {
+      "endshelf": "2025-03-29 21:39:47 +0000"
     },
     "done": true
   },
@@ -3174,6 +3186,12 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2025-03-29 20:28:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-03-15 01:41:36 +0000"
@@ -3272,10 +3290,9 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2025-03-29 10:07:15 +0000",
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
-    "done": true
+    "done": false
   },
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
@@ -4354,6 +4371,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/use_home": {
+    "criteria": {
+      "coded_trigger": "2025-03-29 20:46:33 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking_pot": {
     "criteria": {
       "has_iron_ingot": "2025-03-14 07:15:22 +0000"
@@ -5016,7 +5039,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -5139,7 +5162,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -5391,7 +5414,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -6077,7 +6100,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -6941,7 +6964,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
@@ -6989,7 +7012,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-03-29 10:07:14 +0000"
+      "log_spam_fixer": "2025-03-30 07:56:44 +0000"
     },
     "done": false
   },
